@@ -1,6 +1,7 @@
 ﻿// Serve para printar na tela uma mensagem
 //WriteLine escreve uma linha na tela e quebre a linha
 Console.WriteLine("Qual é o seu nome: ");
+// tipoDaVariavel nomeDaVariavel = valorDaVariavel e ;
 string nome = Console.ReadLine()!;
 Console.WriteLine($"Muito Prazer {nome}");
 // Escreva na mesma linha(Permanece na mesma linha)
