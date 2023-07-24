@@ -7,6 +7,6 @@ Console.WriteLine($"Muito Prazer {nome}");
 Console.Write("Qual é a sua idade:");
 int idade = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Seu nome é: {nome} e sua idade é: {idade}");
-string terminaTela = Console.ReadLine();
+string terminaTela = Console.ReadLine()!;
 // Escreva na mesma linha(Permanece na mesma linha)
 // System.Out.Println();
